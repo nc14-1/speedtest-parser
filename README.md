@@ -1,2 +1,5 @@
-# speedtest-parser
-Parses speedtest CLI output and inputs to a file for analytics and visualization.
+# Speedtest Parser
+
+This repository is meant to hold scripts (for Windows, MacOS, and Linux) to periodically measure internet speeds and log the results into a single, contained file. Currently, it is in development using the [Speedtest CLI Tool](https://www.speedtest.net/apps/cli) from [Ookla](https://www.ookla.com/) (downloaded separately and ignored in git commits for legal reasons). However, plans are in place to have this tool work with the [Speedtest Tool](https://speed.measurementlab.net/#/) provided by [Measurement Labs](https://www.measurementlab.net/) (as this solution is open-source, for those who wish to use open-source tools).
+
+As of right now, there is only compatibility with Windows as this tool was written in Powershell. (Excuse the mess, it was my first time writing anything in Powershell.) I hope to expand the compatibility to cover all sorts of operating systems (MacOS, Linux, BSD, Windows, and Android), however as this is _very much_ a side-project of mine, development time may not be reasonable.
