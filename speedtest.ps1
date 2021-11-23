@@ -1,7 +1,7 @@
 # Run speedtest and output to memory (commented out would be to output to file
 echo "`nRunning speed test..."
 #.\speedtest.exe | Out-File .\temp.csv
-$speedtest		 = .\speedtest.exe
+$speedtest = .\speedtest.exe
 echo "Done!"
 
 # Separate lines 
